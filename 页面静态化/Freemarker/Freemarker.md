@@ -10,4 +10,4 @@ Apache Freemarker
 
 
 
-
+其模板编写为FreeMarker Template Language（FTL），属于简单、专用的语言。
