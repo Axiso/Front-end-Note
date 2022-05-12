@@ -16,7 +16,7 @@ React 在 JavaScript 里面实现了对 HTML 和 CSS 的封装，我们通过封
 
 props 是组件对外的接口，state 是组件对内的接口
 
-构造函数是唯一可以给 this.state 赋值的地方；
+<!-- 构造函数是唯一可以给 this.state 赋值的地方； -->
 
 
 # render
@@ -31,12 +31,25 @@ const element = <h1>Hello, world!</h1>;
 JSX，是一个 JavaScript 的语法扩展
 
 React 不强制要求使用 JSX
+
 # React组件
 
 
 在React中，组件通常分为2个大桶： 展示组件和容器组件 。
 
 表示组件与外观有关 ， 容器组件与使事物正常工作有关
+
+
+React 中的 ref 属性可以帮助我们获取子组件的实例或者 Dom 对象，
+
+
+React -- 组件的三大属性（state、props、refs）
+
+语法：
+
+字符串形式的ref（已经不再使用）
+
+<input ref="input1"/>
 
 ## 展示组件
 
